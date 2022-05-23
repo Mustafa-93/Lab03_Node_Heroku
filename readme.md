@@ -7,9 +7,7 @@
 
 ### Client
 
-
 ### Server
-
 
 ## Short Description
 

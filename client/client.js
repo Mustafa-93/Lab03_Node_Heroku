@@ -11,7 +11,7 @@ app.use(express.json())
 
 
 app.get('/',async (req,res)=>{
-    const response = await axios.post('http://localhost:3000/',{data:"O Hi this a test Car River Deer Car Bear and"});
+    const response = await axios.post('https://mustafa93-lab03.herokuapp.com/',{data:"O Hi this a test Car River Deer Car Bear and"});
     const wf = response.data;
     //console.log(wf)
     res.render("index",{
